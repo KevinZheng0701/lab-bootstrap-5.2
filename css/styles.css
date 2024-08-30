@@ -1,1 +1,27 @@
 /* Add custom css styles here */
+.header-container {
+  background-image: url("https://github.com/KevinZheng0701/lab-bootstrap-5.2/blob/main/images/coffee-biscuits.jpg?raw=true");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+}
+
+.footer-container {
+  color: white;
+  background-color: rgb(1, 103, 212);
+}
+
+.about-container {
+  background-color: rgb(246, 246, 246);
+}
+
+.header-text {
+  color: white;
+  background-color: black;
+  opacity: 0.6;
+}
